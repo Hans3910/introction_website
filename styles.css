@@ -1,0 +1,158 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  margin: auto 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  background-image: url(images/laptop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom:2px solid grey;
+  height: 300px;
+  align-items: flex-end;
+
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 600px;
+  background-color: #adfc03;
+  background-image: url(images/background.jpeg);
+
+
+
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  height: 40px;
+  font-size: 15px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+footer a {
+  color: black;
+}
+
+header a {
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  margin: 0 50px 20px 80px;
+}
+
+header a, a:link {
+  text-decoration: none;
+}
+
+header a, a:visited {
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+header a:active {
+  text-decoration: underline;
+}
+
+
+ul {
+  font-size: 30px;
+  margin: 30px 300px 0 50px;
+  color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.ul-career {
+  font-size: 30px;
+  margin: 30px 100px 0 50px;
+
+}
+
+
+li {
+  padding: 10px;
+  list-style-type: circle;
+
+}
+
+li:first-child {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.personal-pic {
+  width: 410px;
+  height: 300px;
+  border-right:1px solid grey;
+  margin: 0px 200px 0 0px;
+
+}
+
+.img-general {
+  width: 400px;
+  height: 230px;
+  border: 3px solid grey;
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 25px;
+  margin: 30px 0 0 0;
+  display: inline-flex;
+  align-self: center;
+
+}
+
+.battleship-info {
+  font-size: 20px;
+  padding: 35px;
+  margin-top: 0px;
+
+
+}
+
+.battleship-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 0 0 0;
+  align-self: flex-start;
+}
+
+iframe {
+  display: inline-block;
+  align-self: center;
+  width: 700px;
+  height: 400px;
+
+}
